@@ -240,3 +240,11 @@ header {
     padding-bottom: 20px;
     color: orange;
 }
+
+/*This section adds the vector images*/
+
+.partner-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
