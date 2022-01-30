@@ -7,6 +7,10 @@
     /* background-color: #f0f1f1; */
 }
 
+body {
+    background-color: #fff7fbee;
+}
+
 li,
 a,
 button {
@@ -169,6 +173,7 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 40px;
     justify-content: flex-start;
+    background-color: white !important;
 }
 
 .container h2 {
@@ -176,6 +181,62 @@ header {
 }
 
 .container > .box-content:nth-child(3) {
-    background-color: #23A6F0;
+    background-color: #23A6F0 !important;
     color: white;
+}
+
+/*This section adds the three flex boxes*/
+
+.body-content {
+    position: relative;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color: white !important;
+}
+
+.body-content .box-small {
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    /* font-size: 30px; */
+    cursor: pointer;
+}
+
+/*This section adds the industry team members */
+
+.industry {
+    position: relative;
+    margin: 200px auto;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.industry .industry-text {
+    padding: 30px;
+}
+
+.industry .industry-text h2 {
+    font-size: 50px;
+}
+
+.industry .team-profile .img-responsive {
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.industry .team-profile {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.industry .team-profile .checked {
+    padding-bottom: 20px;
+    color: orange;
 }
