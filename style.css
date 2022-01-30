@@ -89,7 +89,7 @@ header {
     top: 50%;
     left: 50%;
     margin-top: 200px;
-    transform: translate (-50%, -50%);
+    /* transform: translate (-50%, -50%); */
 }
 
 .hero-text h2 {
@@ -97,11 +97,12 @@ header {
 }
 
 .hero-text p {
-    padding: 20px;
+    padding: 10px;
     font-size: 1em;
 }
 
 .hero-text .quote-button {
+    margin: 10px;
     display: inline-block;
     width: 200px;
     font-weight: bold;
@@ -124,6 +125,7 @@ header {
 }
 
 .hero-text .learn-button {
+    margin: 10px;
     display: inline-block;
     width: 200px;
     font-weight: bold;
@@ -146,5 +148,34 @@ header {
     background-color: #f02394;
 }
 
-/* This section adds the core values */
+/* This section adds the content-box container values */
 
+.container {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+}
+
+.container .box-content {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    justify-content: flex-start;
+}
+
+.container h2 {
+    font-weight: 800;
+}
+
+.container > .box-content:nth-child(3) {
+    background-color: #23A6F0;
+    color: white;
+}
