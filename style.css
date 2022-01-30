@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    padding: 0;
+    /* background-color: #f0f1f1; */
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #080808;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #f02394;;
+}
+
+
+.main-button {
+    display: inline-flex;
+    padding: 15px 30px;
+    position: relative;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    overflow: hidden;
+    /* flex-direction: row; */
+}
+
+.main-button:hover {
+    background-color: #f02394;
+}
+
+.fas {
+    position: relative;
+    margin-left: 10px;
+    color: white;
+    align-items: center;
+}
+
+
+/*This section adds the hero image and 2 buttons */
+
+.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/main-cover.png");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-top: 200px;
+    transform: translate (-50%, -50%);
+}
+
+.hero-text h2 {
+    font-size: 60px;
+}
+
+.hero-text p {
+    padding: 20px;
+    font-size: 1em;
+}
+
+.hero-text .quote-button {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    background-color: #23A6F0;
+    overflow: hidden;
+    text-align: center;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.hero-text .quote-button:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #f02394;
+}
+
+.hero-text .learn-button {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: center;
+    outline: none;
+    /* border: white solid transparent; */
+    border-color: aliceblue;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.hero-text .learn-button:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #f02394;
+}
+
+/* This section adds the core values */
+
