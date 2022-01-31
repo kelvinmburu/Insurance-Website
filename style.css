@@ -9,12 +9,13 @@
 
 body {
     background-color: #fff7fbee;
+    font-family: "Montserrat", sans-serif;
 }
 
 li,
 a,
 button {
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     font-weight: 500;
     font-size: 16px;
     color: #080808;
@@ -43,7 +44,8 @@ header {
 }
 
 .nav-links li a:hover {
-    color: #f02394;;
+    color: #f02394;
+    ;
 }
 
 
@@ -180,7 +182,7 @@ header {
     font-weight: 800;
 }
 
-.container > .box-content:nth-child(3) {
+.container>.box-content:nth-child(3) {
     background-color: #23A6F0 !important;
     color: white;
 }
@@ -210,9 +212,10 @@ header {
 
 .industry {
     position: relative;
-    margin: 150px auto;
+    box-sizing: border-box;
+    margin: 200px auto;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .industry .industry-text {
@@ -251,14 +254,138 @@ header {
 /*This section adds the search buttons*/
 
 .search-btn {
-    margin: 150px auto;
+    margin: 200px auto;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(45deg, red, blue);
+    background: linear-gradient(75deg, blue, red);
 }
 
 .search-btn .search-text {
     padding: 30px;
+    color: white;
+}
+
+/*This section adds the pricing category section */
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pricing .text-pricing .bold-pricing {
+    font-size: 1.8vw;
+    font-weight: 800;
+}
+
+.pricing .text-pricing .plain-pricing {
+    font-size: 1.1vw;
+    color: var(--grey);
+
+}
+
+.pricing .card-pricing {
+    display: flex;
+    /* width: 80%; */
+
+}
+
+.pricing .c-plain {
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+    border: 2px solid var(--blue);
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    /* padding: 5% 1% 5% 1%; */
+    box-sizing: border-box;
+    height: 80vh;
+    margin-top: 2.1%;
+
+}
+
+.pricing .c-plain button {
+    background-color: #23A6F0;
+    color: white;
+    width: 14vw;
+    margin-top: 5%;
+    height: 2.5vw;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+.package {
+    font-weight: 700;
+    font-size: 1.6vw;
+}
+
+.cash {
+    color: var(--blue)
+}
+
+.pricing .one {
+    font-weight: 1000;
+
+}
+
+.pricing .two {
+    font-size: 1.8vw;
+}
+
+.pricing sup~p {
+    font-size: 2vw;
+}
+
+.pricing .standard button {
+    background-color: var(--blue);
+    color: white;
+    width: 14vw;
+    margin-top: 5%;
+    height: 2.5vw;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+
+.pricing .standard {
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+    border: 2px solid var(--blue);
+    background-color: #252B42;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    /* padding: 5% 1% 5% 1%; */
+    box-sizing: border-box;
+    height: 85vh;
+
+}
+
+.pricing .standard .checked {
+    background: green;
+}
+
+.pricing .standard .checked:checked:checked~.chec {
+    border-color: #4AC072;
+    background: #4AC072;
+}
+
+.pricing .standard button {
+    background-color: #23A6F0;
+    color: white;
+    /* border: solid 1px; */
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio input {
+    margin-top: 1.1vw;
 }
