@@ -449,22 +449,22 @@ header {
 .client-book{
     font-size: 1.6vw;
     font-weight: 900;
-    }
+}
 
 .contact label{
     margin-top: 0.9vw;
     font-weight: 900;
-    
+    align-items: center;
 }
 .contact textarea{
     margin-top: 1.1vw;
 }
-.app-btn{
+.contact .app-btn{
    background-color: #23A6F0;
    color: white;
    align-content: center;
    margin-top: 2vw;
-   height: 3.5vw;
+   height: "200";
    border-radius: 5px;
    border: solid 1px;
 }
@@ -480,11 +480,11 @@ header {
 .contact-us .text{
    width: 50%;
 }
-.contact-us .text  .c-us-bold{
+.contact-us .text  .contact-us-bold{
    font-size: 1.6vw;
    font-weight: 900;
 }
-.contact-us .text .c-us-plain {
+.contact-us .text .contact-us-plain {
    font-size: 1.2vw;
    color: #5e5b5b;
 }
