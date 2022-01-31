@@ -389,3 +389,134 @@ header {
 .radio input {
     margin-top: 1.1vw;
 }
+
+/*This section adds the map and footer section */
+
+.map{
+    background-color: #252B42;
+    position: relative;
+    height: 90vh;
+    margin-top: 10vw;
+    
+}
+.map .branches {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: -16%;
+    height: 20vh;
+    padding-top: 10%;
+    position: absolute;
+}
+.map .branches .text{
+    width: 50%;
+    color: white;
+}
+.h1{
+    font-size: 3vw;
+    font-weight: 800;
+}
+.map .branches img{
+    width: 50%;
+}
+
+.appointment{
+    display: flex;
+    background-color: #fff;
+    height: 64vh;
+    width: 50%;
+    margin-top: 30%;
+    position: absolute;
+    right: 24%;
+}
+.appointment img{
+    width: 50%;
+}
+.appointment .contact{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.appointment textarea{
+    background: #fafafa;
+    height: 2.1vw;
+        
+}
+.p-book{
+    font-size: 1.6vw;
+    font-weight: 900;
+    }
+
+.contact label{
+    margin-top: 0.9vw;
+    font-weight: 900;
+    
+}
+.contact textarea{
+    margin-top: 1.1vw;
+}
+.app-btn{
+   background-color: var(--blue);
+   color: white;
+   align-content: center;
+   margin-top: 2vw;
+   height: 3.5vw;
+   border-radius: 5px;
+   border: solid 1px;
+}
+.contact-us{
+   position: absolute;
+   margin-top : 73%;
+   left: 16%;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   padding-bottom: 3vw;
+}
+.contact-us .text{
+   width: 50%;
+}
+.contact-us .text  .c-us-bold{
+   font-size: 1.6vw;
+   font-weight: 900;
+}
+.contact-us .text .c-us-plain {
+   font-size: 1.2vw;
+   color: #5e5b5b;
+}
+.contact-us .contact-btn {
+width: 50%;
+}
+
+  .contact-btn button{
+   background-color: var(--blue);
+   width: 10vw;
+   color: white;  
+   height: 3vw;
+   border-radius: 6px;
+   border: solid 1px;
+}
+.footer{
+   display: flex;
+   flex-direction: row;
+   margin-top: 40%;
+   justify-content: space-between;
+   background-color: white;
+}
+.footer ul{
+   list-style-type: none;
+}
+.footer ul li{
+   padding-top: 0.8vw;
+   color: #252B42;
+
+}
+.q-links{
+   font-size: 1.2vw;
+   font-weight: 800;
+   padding-bottom: 1.2vw;
+}
+.copyright{
+   left: 3%;
+   position: absolute;
+}
