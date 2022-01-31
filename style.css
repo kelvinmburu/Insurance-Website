@@ -512,12 +512,18 @@ width: 50%;
 }
 .footer-section ul{
    list-style-type: none;
+   cursor: pointer;
 }
 .footer-section ul li{
    padding-top: 0.8vw;
    color: #252B42;
-
 }
+
+.footer-section ul li:hover{
+    transition: all 0.3s ease 0s;
+    color: #f02394;
+ }
+
 .footer-links{
    font-size: 1.2vw;
    font-weight: 800;
