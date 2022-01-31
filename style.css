@@ -503,27 +503,27 @@ width: 50%;
 
 /*This section adds the footer section of the landing page*/
 
-.footer{
+.footer-section{
    display: flex;
    flex-direction: row;
    margin-top: 40%;
    justify-content: space-between;
    background-color: white;
 }
-.footer ul{
+.footer-section ul{
    list-style-type: none;
 }
-.footer ul li{
+.footer-section ul li{
    padding-top: 0.8vw;
    color: #252B42;
 
 }
-.q-links{
+.footer-links{
    font-size: 1.2vw;
    font-weight: 800;
    padding-bottom: 1.2vw;
 }
-.copyright{
+.copyright-text{
    left: 3%;
    position: absolute;
 }
