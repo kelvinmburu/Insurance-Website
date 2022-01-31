@@ -399,7 +399,7 @@ header {
     margin-top: 10vw;
     
 }
-.map .branches {
+.map .country-branches {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -408,7 +408,7 @@ header {
     padding-top: 10%;
     position: absolute;
 }
-.map .branches .text{
+.map .country-branches .text{
     width: 50%;
     color: white;
 }
@@ -416,9 +416,11 @@ header {
     font-size: 3vw;
     font-weight: 800;
 }
-.map .branches img{
+.map .country-branches img{
     width: 50%;
 }
+
+/*This section adds the Book Appointment section*/
 
 .appointment{
     display: flex;
@@ -431,6 +433,8 @@ header {
 }
 .appointment img{
     width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .appointment .contact{
     width: 50%;
@@ -439,10 +443,10 @@ header {
 }
 .appointment textarea{
     background: #fafafa;
-    height: 2.1vw;
+    height: 4.1vw;
         
 }
-.p-book{
+.client-book{
     font-size: 1.6vw;
     font-weight: 900;
     }
@@ -456,7 +460,7 @@ header {
     margin-top: 1.1vw;
 }
 .app-btn{
-   background-color: var(--blue);
+   background-color: #23A6F0;
    color: white;
    align-content: center;
    margin-top: 2vw;
@@ -489,7 +493,7 @@ width: 50%;
 }
 
   .contact-btn button{
-   background-color: var(--blue);
+   background-color: #23A6F0;
    width: 10vw;
    color: white;  
    height: 3vw;
