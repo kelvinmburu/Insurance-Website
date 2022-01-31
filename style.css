@@ -425,7 +425,7 @@ header {
 .appointment{
     display: flex;
     background-color: #fff;
-    height: 64vh;
+    height: 80vh;
     width: 50%;
     margin-top: 30%;
     position: absolute;
@@ -492,7 +492,7 @@ header {
 width: 50%;
 }
 
-  .contact-btn button{
+.contact-btn button{
    background-color: #23A6F0;
    width: 10vw;
    color: white;  
@@ -500,6 +500,9 @@ width: 50%;
    border-radius: 6px;
    border: solid 1px;
 }
+
+/*This section adds the footer section of the landing page*/
+
 .footer{
    display: flex;
    flex-direction: row;
