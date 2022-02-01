@@ -521,6 +521,7 @@ width: 50%;
 
 .footer-section{
    display: flex;
+   padding: 30px;
    flex-direction: row;
    margin-top: 40%;
    justify-content: space-between;
