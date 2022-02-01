@@ -191,7 +191,7 @@ header {
 
 .body-content {
     position: relative;
-    margin: 200px auto;
+    margin: 0px auto;
     display: flex;
     justify-content: space-evenly;
     padding: 100px;
@@ -222,6 +222,7 @@ header {
 }
 
 .industry .industry-text {
+    text-align: center;
     padding: 30px;
 }
 
@@ -231,7 +232,6 @@ header {
 
 .industry .profiles {
     display: flex;
-
     flex-direction: row;
     justify-content: space-between;
 }
@@ -244,7 +244,7 @@ header {
 .industry .team-profile {
     width: 30%;
     border: 1px solid;
-    height: 29vw;
+    height: 25vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,6 +259,7 @@ header {
 /*This section adds the vector images*/
 
 .partner-icons .icons{
+    margin: 110px auto;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -268,12 +269,12 @@ header {
 /*This section adds the search buttons*/
 
 .search-btn {
-    margin: 200px auto;
+    margin: 100px auto;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
     background: linear-gradient(75deg, blue, red);
+    width: 75%;
 }
 
 .search-btn .search-text {
@@ -455,9 +456,10 @@ header {
     display: flex;
     flex-direction: column;
 }
-.appointment textarea{
+.appointment .form-control{
     background: #fafafa;
-    height: 4.1vw;
+    height: 3.1vw;
+    padding: 15px;
         
 }
 .client-book{
@@ -478,7 +480,7 @@ header {
    color: white;
    align-content: center;
    margin-top: 2vw;
-   height: "200";
+   height: 50px;
    border-radius: 5px;
    border: solid 1px;
 }
