@@ -18,7 +18,7 @@ button {
     /* font-family: "Montserrat", sans-serif; */
     font-weight: 500;
     font-size: 16px;
-    color: #080808;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -27,6 +27,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+}
+
+.main-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/main-cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav-links {
@@ -77,8 +84,8 @@ header {
 
 /*This section adds the hero image and 2 buttons */
 
-.bg-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/main-cover.png");
+/* .bg-image {
+    
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +94,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .hero-text {
     color: white;
